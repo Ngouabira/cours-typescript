@@ -2,6 +2,17 @@
 
 TypeScript = JavaScript + système de types.
 
+
+Prérequis
+
+- Connaissances de base en JavaScript (ES6+ recommandé).
+
+- Node.js et npm/yarn installés.
+
+- Un éditeur (VS Code recommandé) avec l’extension TypeScript/TS Server.
+
+- Optionnel : notion de compilation/transpilation, modules ES.
+
 Avantages :
 
 - moins d’erreurs,
