@@ -1,57 +1,27 @@
-1 — Introduction & pourquoi apprendre TypeScript
+1. Introduction (Simple + Utile)
 
-TypeScript est un sur-ensemble typé de JavaScript qui compile en JavaScript. Il ajoute des types statiques (optionnels) et des outils de vérification qui aident à attraper des erreurs tôt, améliorer l’autocomplétion et rendre le code plus maintenable. Voir la page d’accueil et le Handbook officiels. 
-TypeScript
-+1
+TypeScript = JavaScript + système de types.
+Avantages :
 
-2 — Prérequis
+moins d’erreurs,
 
-Connaissances de base en JavaScript (ES6+ recommandé).
+auto-complétion plus intelligente,
 
-Node.js et npm/yarn installés.
+code plus clair et maintenable,
 
-Un éditeur (VS Code recommandé) avec l’extension TypeScript/TS Server.
+idéal pour Angular, NestJS, React, Node.js.
 
-Optionnel : notion de compilation/transpilation, modules ES.
-
-3 — Installation et premier projet (pas à pas)
-
-Installer TypeScript globalement (optionnel) ou en dépendance projet :
-
-# global
-npm install -g typescript
-
-# local (recommandé)
+2. Installation et Mise en place d’un projet
+✔️ Installation
 npm init -y
-npm install --save-dev typescript
-
-
-Initialiser un tsconfig.json :
-
+npm install --save-dev typescript ts-node ts-node-dev
 npx tsc --init
 
-
-Structure minimale :
-
+✔️ Structure recommandée
 project/
   src/
     index.ts
   tsconfig.json
-  package.json
 
-
-Compiler :
-
-npx tsc    # compile selon tsconfig.json
-node dist/index.js
-
-
-Pour développement rapide : ts-node ou ts-node-dev.
-
-npm install --save-dev ts-node ts-node-dev
+✔️ Lancer un fichier TS sans compiler
 npx ts-node src/index.ts
-
-
-(La documentation officielle détaille ces étapes et options). 
-TypeScript
-+1
