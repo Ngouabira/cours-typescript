@@ -1,20 +1,24 @@
 1. Introduction (Simple + Utile)
 
 TypeScript = JavaScript + système de types.
+
 Avantages :
 
-moins d’erreurs,
+- moins d’erreurs,
 
-auto-complétion plus intelligente,
+- auto-complétion plus intelligente,
 
-code plus clair et maintenable,
+- code plus clair et maintenable,
 
 idéal pour Angular, NestJS, React, Node.js.
 
 2. Installation et Mise en place d’un projet
 ✔️ Installation
+
 npm init -y
+
 npm install --save-dev typescript ts-node ts-node-dev
+
 npx tsc --init
 
 ✔️ Structure recommandée
